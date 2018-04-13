@@ -2,7 +2,7 @@
 
 A project in Compilation course
 
-## Part 1 - Lexical Analysis
+### Part 1 - Lexical Analysis
 - Implement lexical analyzer (using FLEX)
 - Lexical analyzer reads text from the input file and identifies tokens
 - When a token is identified in the input text, it stored in a data structure
