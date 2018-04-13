@@ -2,4 +2,4 @@
 
 A project in Compilation course
 
-## First Part - Lexical Analysis
+## Part 1 - Lexical Analysis
