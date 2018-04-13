@@ -9,5 +9,12 @@ A project in Compilation course
 - Each operation, keyword, separation sign and each type of number implemented as a token of a different kind
 - Error handling: each time the lexical analyzer finds a symbol that doesn't start any legal token, it sends an appropriate message
 
-## Part 2 - Recursive Descent Syntax Analysis
+### Part 2 - Recursive Descent Syntax Analysis
 -
+
+
+
+## Authors
+
+- Daniel Tal - [LinkeIn](https://www.linkedin.com/in/daniel-tal/)
+- Hadas Barel - [LinkeIn](https://www.linkedin.com/in/hadas-barel-a73840148/)
