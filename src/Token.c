@@ -90,40 +90,7 @@ void create_and_store_token(eTOKENS kind, char* lexeme, int numOfLine)
  */
 Token *back_token()
 {
-	int backIndex = 0;
-	Node* backNode = NULL;
-	if (currentIndex == 0)
-	{
-		if (currentNode->prev != NULL)
-		{
-			backNode = currentNode->prev;
-			backIndex = TOKEN_ARRAY_SIZE - 1;
-		}
-		else
-		{
-			fprintf(yyout, "\nUnable to allocate memory! \n");
-			exit(0);
-		}
-	}
-	else
-	{
-		backNode = currentNode;
-		backIndex = currentIndex - 1;
-	}
-
-	// build the token to return
-	Token* returnToken = (Token*)malloc(sizeof(Token));
-	if (returnToken == NULL)
-	{
-		fprintf(yyout, "\Cannot create new Token \n");
-		exit(0);
-	}
-	returnToken->kind = backNode->tokensArray[backIndex]->kind;
-	returnToken->lexeme = backNode->tokensArray[backIndex]->lexeme;
-	returnToken->lineNumber = backNode->tokensArray[backIndex]->lineNumber;
-
-	return returnToken;
-}
+	// TODO
 
 /*
  * If the next token already exists in the storage (this happens when back_token was called before this call to next_token):
